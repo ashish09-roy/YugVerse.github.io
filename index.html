@@ -1,128 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>YugVerse - Building the Future of Indian Tech</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-  body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #0d1b2a, #1b263b);
-    color: #f0f0f0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .container {
-    max-width: 480px;
-    background: rgba(255 255 255 / 0.05);
-    border-radius: 15px;
-    padding: 40px 30px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
-  }
-
-  .logo-placeholder {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto 20px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #f97316, #1e40af);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 900;
-    font-size: 48px;
-    color: white;
-    user-select: none;
-  }
-
-  h1 {
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 2.8rem;
-  }
-
-  p.slogan {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
-    color: #fbbf24;
-  }
-
-  p.coming-soon {
-    font-size: 1.4rem;
-    font-weight: 600;
-    margin-bottom: 25px;
-  }
-
-  form input[type="email"] {
-    width: 100%;
-    padding: 12px 15px;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    font-size: 1rem;
-  }
-
-  form button {
-    margin-top: 15px;
-    width: 100%;
-    padding: 12px 0;
-    border-radius: 8px;
-    border: none;
-    background: #f97316;
-    color: white;
-    font-weight: 700;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-
-  form button:hover {
-    background: #d97706;
-  }
-
-  footer {
-    margin-top: 50px;
-    font-size: 0.85rem;
-    color: #888;
-  }
-
-  @media (max-width: 480px) {
-    .container {
-      padding: 30px 20px;
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YugVerse – India's Tech Future</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
     }
 
-    h1 {
-      font-size: 2.2rem;
+    body {
+      background: linear-gradient(135deg, #1f1f2e, #14141c);
+      color: white;
+      padding: 20px;
     }
-  }
-</style>
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #00ffe5;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    section {
+      margin: 30px auto;
+      max-width: 800px;
+      background: #2a2a3b;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 255, 200, 0.2);
+    }
+
+    section h2 {
+      color: #00ffe5;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    a {
+      color: #00ffe5;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <div class="logo-placeholder">YV</div>
-    <h1>YugVerse</h1>
-    <p class="slogan">Building the Future of Indian Tech</p>
-    <p class="coming-soon">Coming Soon</p>
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLSf9_sample_form_link/formResponse" method="POST" target="_blank" onsubmit="alert('Thank you for joining the waitlist!')">
-      <input
-        type="email"
-        name="entry.2005620554"
-        placeholder="Enter your email to join the waitlist"
-        required
-      />
-      <button type="submit">Join Waitlist</button>
-    </form>
-  </div>
+  <header>
+    <h1>Welcome to YugVerse</h1>
+    <p>India’s Next Tech Powerhouse</p>
+  </header>
 
-  <footer>© 2025 YugVerse. All rights reserved. Made in India 🇮🇳</footer>
+  <section>
+    <h2>🚀 Our Vision</h2>
+    <p>
+      YugVerse is not just a company – it’s a movement. Founded by <strong>Ashish Roy</strong> in June 2025, 
+      our mission is to build futuristic apps and technologies from India, for the world. Whether it’s social media, AI tools, or smart platforms, YugVerse will lead the way.
+    </p>
+  </section>
+
+  <section>
+    <h2>🧠 Upcoming Projects</h2>
+    <ul>
+      <li><strong>Yug:</strong> A next-gen social networking app.</li>
+      <li><strong>YugAI:</strong> Smart personal AI assistant (Coming soon).</li>
+      <li><strong>YugPay:</strong> Fast and secure Indian payment platform.</li>
+      <li><strong>VerseDrive:</strong> Cloud storage with privacy-focused tools.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>👨‍💻 About the Founder</h2>
+    <p>
+      I'm <strong>Ashish Roy</strong>, the founder of YugVerse. With a vision to bring innovative Indian tech to the global stage, 
+      I started YugVerse to empower people with smart, beautiful, and functional apps.
+    </p>
+  </section>
+
+  <section>
+    <h2>📬 Contact</h2>
+    <p>Email me at: <a href="mailto:ashish@example.com">ashish@example.com</a></p>
+  </section>
+
+  <footer>
+    © 2025 YugVerse. All Rights Reserved.
+  </footer>
 </body>
 </html>
