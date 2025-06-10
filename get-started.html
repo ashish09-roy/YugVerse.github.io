@@ -1,61 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Get Started - YugVerse</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to YugVerse</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <style>
-    body {
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #1f1c2c, #928dab);
-      color: white;
-      text-align: center;
-      padding: 30px;
+      background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+    .card {
+      background-color: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      border: 1px solid rgba(255,255,255,0.1);
     }
     h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
+      font-size: 2.2rem;
+      color: #00ffff;
+      margin-bottom: 20px;
+      text-align: center;
     }
     p {
-      font-size: 18px;
-      margin-bottom: 20px;
+      margin-bottom: 18px;
+      font-size: 1rem;
+      line-height: 1.6;
     }
-    .button {
-      display: inline-block;
-      margin: 10px;
-      padding: 12px 24px;
-      border-radius: 8px;
+    a {
+      color: #00ffcc;
       font-weight: 600;
       text-decoration: none;
-      transition: 0.3s ease;
     }
-    .button:hover {
-      opacity: 0.85;
+    a:hover {
+      text-decoration: underline;
     }
-    .main-site { background: #ff5e62; color: white; }
-    .youtube { background: #ffbd69; color: black; }
-    .instagram { background: #833ab4; color: white; }
-    .back { background: #00c9a7; color: white; }
-    footer {
-      margin-top: 40px;
-      font-size: 16px;
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #ccc;
+    }
+    @media (max-width: 600px) {
+      .card {
+        padding: 25px;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>🚀 Welcome to YugVerse</h1>
-  <p>India's own digital revolution – explore innovation & technology.</p>
-
-  <a href="https://ashish09-roy.github.io/" target="_blank" class="button main-site">🔗 Visit Our Main Site</a><br>
-  <a href="https://youtube.com/@yugverse-09?si=WE0q1ASFkPH7kso_" target="_blank" class="button youtube">📺 Subscribe on YouTube</a><br>
-  <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=yjsw0ry" target="_blank" class="button instagram">📸 Follow us on Instagram</a><br><br>
-
-  <a href="index.html" class="button back">🔙 Back to Home</a>
-
-  <footer>
-    DMs Open for Product Promotion & Collaboration
-  </footer>
+  <div class="card">
+    <h1>Welcome to YugVerse</h1>
+    <p><strong>🚀 The Beginning of a New Era in Indian Technology</strong></p>
+    <p>
+      YugVerse is India’s own digital revolution. Stay updated with our journey, products and innovations. Follow us & be part of this revolution.
+    </p>
+    <p><strong>🔗 Explore Our First Product – YugNotes:</strong><br>
+      <a href="https://ashish09-roy.github.io/" target="_blank">
+        https://ashish09-roy.github.io/
+      </a>
+    </p>
+    <p><strong>📸 Instagram:</strong><br>
+      <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=yjsw0ry" target="_blank">
+        @yugverse.official
+      </a>
+    </p>
+    <p><strong>▶️ YouTube:</strong><br>
+      <a href="https://youtube.com/@yugverse-09?si=WE0q1ASFkPH7kso_" target="_blank">
+        @yugverse-09
+      </a>
+    </p>
+    <div class="footer">
+      🇮🇳 Made with ❤️ in India
+    </div>
+  </div>
 </body>
 </html>
